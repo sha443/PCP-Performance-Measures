@@ -136,7 +136,7 @@ def NeighborhoodAffinity(p, b):
 	return affinity
 # endfunction
 
-def matchingScore(cluster, benchmark, overlap=0.2):
+def matchingScore(cluster, benchmark):
 	score = len(set(benchmark) & set(cluster))
 	return score
 # endfunction
